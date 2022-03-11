@@ -4,7 +4,9 @@
 
 By default, many Unreal Engine project templates include a Camera on every Character.
 
-This simple dependentless ActorComponent is designed to spawn a SpringArm and Camera, and then attach itself to an incoming possessed character. Cleanup function included for unposessing as well.
+For some games it might be desireable not to have a Camera/Springarm on every character, and instead only use a single Camera that "moves" to the specific character you happen to be possessing.
+
+This simple dependentless ActorComponent is designed to spawn a SpringArm and Camera from your PlayerController, and then attach itself to an incoming possessed character. Cleanup function included for unposessing as well.
 
 ## Usage
 
